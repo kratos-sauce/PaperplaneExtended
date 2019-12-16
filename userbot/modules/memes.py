@@ -1481,5 +1481,5 @@ CMD_HELP.update({
 \n\n.hey\
 \nUsage: try by u self\
 \n\n.nou\
-\nUsage: Bacud kamoh\"
+\nUsage:\"
 })
