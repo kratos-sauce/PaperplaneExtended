@@ -117,15 +117,15 @@ async def pipcheck(pip):
                            "`\n**Result: **\n`No Result Returned/False`")
     else:
         await pip.edit("`Use .help pip to see an example`")
-
+ 
 
 @register(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("`"
-                     "My bot is running \n\n"
-                     f"Telethon version: {version.__version__} \n"
-                     f"Python: {python_version()} \n"
+                     "anu mantap \n\n"
+                     f"Tele'uler---> {version.__version__} \n"
+                     f"uleruleran-->{python_version()} \n"
                      f"User: {DEFAULTUSER}"
                      "`")
 
