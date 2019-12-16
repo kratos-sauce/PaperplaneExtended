@@ -18,6 +18,10 @@ import requests
 
 from cowpy import cow
 
+from telethon.tl.functions.users import GetFullUserRequest
+from telethon.tl.types import MessageEntityMentionN
+
+
 from userbot import CMD_HELP
 from userbot.events import register
 from usebot.modules.admin import get_user_from_event
