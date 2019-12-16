@@ -6,9 +6,9 @@
 #
 """ Userbot module for having some fun with people. """
 
-import asyncio from sleep
-import random import choice, getrandbits, randint
-import re import sub
+import asyncio
+import random
+import re
 import time
 
 from collections import deque
