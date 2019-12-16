@@ -1115,7 +1115,7 @@ async def lol(e):
  
  
  @register(outgoing=True, pattern="^.siap$")
-async def siap(e):
+ async def siap(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n╔═╦╦═╦═╗`"
                      "`\n║╚╣║║║║║`"
