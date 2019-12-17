@@ -1198,20 +1198,6 @@ async def taco(e):
                      "\n(>🌮 Want a taco?")
 
 
-@register(outgoing=True, pattern="^.huh$")  
-async def huh(e):
-   if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("\n/\_/\"
-                     "\n(='_')"
-                     "\n(." " ")
-   
-
-@register(outgoing=True, pattern="^.huhu$")  
-async def huhu(e):
-   if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("\n/\_/\"
-                     "\n(=' ᴗ')"
-                     "\n(," " ")
 
 
 @register(outgoing=True, pattern="^.paw$")  
