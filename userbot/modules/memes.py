@@ -1321,31 +1321,6 @@ CMD_HELP.update({
 \nUsage: Create fake chat actions, for fun. (Default action: typing)\
 \n\n\nThanks to 🅱️ottom🅱️ext🅱️ot (@NotAMemeBot) for some of these.\
 \n\n.leave\
-\nUsage: New memes\
-\n\n.fail\
-\nUsage: New memes\
-\n\n.lol\
-\nUsage: New memes\
-\n\n.lool\
-\nUsage: New memes\
-\n\n.nih\
-\nUsage: New memes indo\
-\n\n.fag\
-\nUsage: New memes\
-\n\n.taco\
-\n.Usage: you want this\
-\n\n.paw\
-\n.Usage: New memes\
-\n\n.tf\
-\nUsage: New memes\
-\n\n.gey\
-\nUsage: gay meme\
-\n\n.gay\
-\nUsage: gay meme indonesia\
-\n\n.bot\
-\nUsage: New memes\
-\n\n.hey\
-\nUsage: New memes\
-\n\n.nou\
-\nUsage: New meme\"
+\nUsage: New memes\"
+
 })
