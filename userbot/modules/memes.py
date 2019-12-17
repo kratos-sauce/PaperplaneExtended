@@ -1109,11 +1109,6 @@ async def typewriter(typew):
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`I iz Leaving dis Group kek!`")
-        time.sleep(3)
-        if '-' in str(e.chat_id):
-            await bot(LeaveChannelRequest(e.chat_id))
-        else:
-            await e.edit('`Sar This is Not A Chat`')
 
 
 @register(outgoing=True, pattern="^.fail$")  
@@ -1175,11 +1170,11 @@ async def gtfo(e):
 async def nih(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n(\_/)`"
-                     "`\n( •_•)`"
-                     "`\n/>🌹  *ini buat kamu`"
+                     "`\n(•_•)`"
+                     "`\n/  >🌹  *ini buat kamu`"
                      "`\n                    `"
                      "`\n(\_/)`"
-                     "`\n( •_•)`"
+                     "`\n(•_•)`"
                      "`\n🌹<\  *tapi boong`")
 
 
