@@ -1108,7 +1108,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^.leave$")
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`I iz Leaving dis Group kek!`")
+        await e.edit("`Now going Leaving dis Group kek!`")
 
 
 @register(outgoing=True, pattern="^.fail$")  
@@ -1193,9 +1193,9 @@ async def gtfo(e):
 @register(outgoing=True, pattern="^.taco$")  
 async def taco(e):
    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`\n{\__/}`"
-                     "`\n(●_●)`"
-                     "`\n( >🌮 Want a taco?")
+        await e.edit("\n{\__/}"
+                     "\n(●_●)"
+                     "\n(>🌮 Want a taco?")
 
 
 @register(outgoing=True, pattern="^.huh$")  
